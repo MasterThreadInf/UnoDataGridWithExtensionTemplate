@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>6279c845-92f8-4333-ab99-3d213163593c</ProjectGuid>
+    <MinimumVisualStudioVersion>14.0</MinimumVisualStudioVersion>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\CodeSharing\Microsoft.CodeSharing.Common.Default.props" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\CodeSharing\Microsoft.CodeSharing.Common.props" />
+  <PropertyGroup />
+  <Import Project="sample.UI.projitems" Label="Shared" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\CodeSharing\Microsoft.CodeSharing.CSharp.targets" />
+  <ItemGroup>
+    <UpToDateCheckInput Remove="Assets\Icons\AboutPage.xaml" />
+    <UpToDateCheckInput Remove="Assets\Icons\AdminPage.xaml" />
+    <UpToDateCheckInput Remove="Assets\Icons\FatalErrorPage.xaml" />
+    <UpToDateCheckInput Remove="Assets\Icons\HomePage.xaml" />
+    <UpToDateCheckInput Remove="Assets\Icons\ReportsPage.xaml" />
+    <UpToDateCheckInput Remove="Assets\Icons\TimeEntryPage.xaml" />
+    <UpToDateCheckInput Remove="Views\AboutPage.xaml" />
+    <UpToDateCheckInput Remove="Views\AdminPage.xaml" />
+    <UpToDateCheckInput Remove="Views\FatalErrorPage.xaml" />
+    <UpToDateCheckInput Remove="Views\HomePage.xaml" />
+    <UpToDateCheckInput Remove="Views\ReportsPage.xaml" />
+    <UpToDateCheckInput Remove="Views\TimeEntryPage.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <_Globbed_Compile Remove="Assets\Icons\AboutPage.xaml.cs" />
+    <_Globbed_Compile Remove="Assets\Icons\AdminPage.xaml.cs" />
+    <_Globbed_Compile Remove="Assets\Icons\FatalErrorPage.xaml.cs" />
+    <_Globbed_Compile Remove="Assets\Icons\HomePage.xaml.cs" />
+    <_Globbed_Compile Remove="Assets\Icons\ReportsPage.xaml.cs" />
+    <_Globbed_Compile Remove="Assets\Icons\TimeEntryPage.xaml.cs" />
+    <_Globbed_Compile Remove="StreamHelperEx.cs" />
+    <_Globbed_Compile Remove="Views\AboutPage.xaml.cs" />
+    <_Globbed_Compile Remove="Views\AdminPage.xaml.cs" />
+    <_Globbed_Compile Remove="Views\FatalErrorPage.xaml.cs" />
+    <_Globbed_Compile Remove="Views\HomePage.xaml.cs" />
+    <_Globbed_Compile Remove="Views\ReportsPage.xaml.cs" />
+    <_Globbed_Compile Remove="Views\TimeEntryPage.xaml.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <_Globbed_Content Remove="Assets\Icons\AboutPage.xaml" />
+    <_Globbed_Content Remove="Assets\Icons\AboutPage.xaml.cs" />
+    <_Globbed_Content Remove="Assets\Icons\AdminPage.xaml" />
+    <_Globbed_Content Remove="Assets\Icons\AdminPage.xaml.cs" />
+    <_Globbed_Content Remove="Assets\Icons\FatalErrorPage.xaml" />
+    <_Globbed_Content Remove="Assets\Icons\FatalErrorPage.xaml.cs" />
+    <_Globbed_Content Remove="Assets\Icons\HomePage.xaml" />
+    <_Globbed_Content Remove="Assets\Icons\HomePage.xaml.cs" />
+    <_Globbed_Content Remove="Assets\Icons\lockscreenlogo.scale-200.png" />
+    <_Globbed_Content Remove="Assets\Icons\ReportsPage.xaml" />
+    <_Globbed_Content Remove="Assets\Icons\ReportsPage.xaml.cs" />
+    <_Globbed_Content Remove="Assets\Icons\SharedAssets.md" />
+    <_Globbed_Content Remove="Assets\Icons\splashscreen.scale-200.png" />
+    <_Globbed_Content Remove="Assets\Icons\square150x150logo.scale-200.png" />
+    <_Globbed_Content Remove="Assets\Icons\square44x44logo.scale-200.png" />
+    <_Globbed_Content Remove="Assets\Icons\storelogo.png" />
+    <_Globbed_Content Remove="Assets\Icons\TimeEntryPage.xaml" />
+    <_Globbed_Content Remove="Assets\Icons\TimeEntryPage.xaml.cs" />
+    <_Globbed_Content Remove="Assets\Icons\wide310x150logo.scale-200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <_Globbed_PRIResource Remove="Strings\en\ErrorMessages.resw" />
+  </ItemGroup>
+  <ItemGroup>
+    <_Globbled_Page Remove="Assets\Icons\AboutPage.xaml" />
+    <_Globbled_Page Remove="Assets\Icons\AdminPage.xaml" />
+    <_Globbled_Page Remove="Assets\Icons\FatalErrorPage.xaml" />
+    <_Globbled_Page Remove="Assets\Icons\HomePage.xaml" />
+    <_Globbled_Page Remove="Assets\Icons\ReportsPage.xaml" />
+    <_Globbled_Page Remove="Assets\Icons\TimeEntryPage.xaml" />
+    <_Globbled_Page Remove="Views\AboutPage.xaml" />
+    <_Globbled_Page Remove="Views\AdminPage.xaml" />
+    <_Globbled_Page Remove="Views\FatalErrorPage.xaml" />
+    <_Globbled_Page Remove="Views\HomePage.xaml" />
+    <_Globbled_Page Remove="Views\ReportsPage.xaml" />
+    <_Globbled_Page Remove="Views\TimeEntryPage.xaml" />
+  </ItemGroup>
+</Project>

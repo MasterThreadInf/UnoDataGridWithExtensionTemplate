@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "sample": {
+      "commandName": "Project",
+      "jsWebView2Debugging": false
+    }
+  }
+}
